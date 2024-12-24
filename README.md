@@ -1,7 +1,8 @@
-﻿Especificação dos ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.001.png)Requisitos do
+﻿Trabalho realizado para a disciplina "Engenharia de software" na Puc Minas Contagem, ministrada pela professor Amália, para acessar o pdf do documento, entre aqui <https://drive.google.com/file/d/10OI1EgdUduKmdgL8YqPu4AHgF2Fum4DQ/view?usp=sharing>
 
-Software - ERSw ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.002.png)
+Versão em markdown do trabalho
 
+Especificação dos Requisitos do Software - ERSw
 **“In-PUC-Out”** 
 
 **4º período** 
@@ -30,20 +31,6 @@ Sistemas de Informação**
 |2\.0 |08/12/2024 |Alterei histórico de revisão do documento e adicionei descrição das classes  |Matheus |
 |2\.0 |09/12/2024 |Adicionei descrição dos casos de uso |Matheus |
 |2\.0 |10/12/2024 |Atualizei o sumário |Matheus |
-
-**Aprovação do documento** 
-
-
-
-|**Versão** |**Data** |**Nome da pessoa** |**Papel perante o sistema** |
-| - | - | - | - |
-|||||
-|||||
-`  `[ a ser preenchido pela professora]   ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.003.png)
-
-25 
-
-3 
 
 **SUMÁRIO**
 
@@ -78,7 +65,7 @@ Sistemas de Informação**
 9. **PROTOTIPAÇÃO ........................................................................................................................................ 11**
 9. **HISTÓRIAS DE USUÁRIO ........................................................................................................................ 16**
 
-**1.Introdução ![ref1]**
+**1.Introdução**
 
 1. **Propósito do documento de requisitos** 
 
@@ -88,7 +75,7 @@ Esse documento tem o objetivo de detalhar os requisitos dos usuários que dever�
 
 Este  documento  destina-se  ao  time  de  desenvolvedores  de  software  bem  como  os stakeholders envolvidos no processo de construção do aplicativo. 
 
-**2.Descrição Geral ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.005.png)**
+**2.Descrição Geral**
 
 Este documento contém a especificação de requisitos para atender a A PUC Minas  que deseja construir uma aplicação WebApp para facilitar e agilizar o controle de acesso de veículos aos seus estacionamentos de todas as suas unidades Coração Eucarístico, Lourdes, Contagem, Barreiro, Betim, Poços de caldas e São Gabriel, com o intuito de prover mais segurança  e  comodidade  para  os  seus  usuários. 
 
@@ -211,19 +198,19 @@ Equipe: Programadores, designer, tester’s, analistas, DBA’s, engenheiro de s
 |Fábio  Leandro  Rodrigues Cordeiro  (Como  cliente  que está representando a PUC) |Coordenador  do  curso  de ADS|(031) 99917-6441 |
 |Luciana  Mara Freitas (Como cliente  que  está representando a PUC) |Professora |(031) 92404-8521 |
 ||||
-**6. Diagrama Entidade Relacionamento (DER) ![ref1]**
+**6. Diagrama Entidade Relacionamento (DER)**
 
-![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.009.png)
+![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.009.png)
 
-**7.Casos de Uso (CSU) – A SER FEITO NA 2ª PARTE ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.010.png)**
+**7.Casos de Uso (CSU) – A SER FEITO NA 2ª PARTE ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.010.png)**
 
 1. **Diagrama de Casos de Uso (*Use Case Diagram*)** 
 
-![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.011.jpeg)
+![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.011.jpeg)
 
 2. **Descrição dos Casos de Uso.** 
 
-EXEMPLO: ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.012.png)
+EXEMPLO: ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.012.png)
 
 
 
@@ -238,7 +225,7 @@ EXEMPLO: ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.012.png)
 
 |Código e nome |**CSU 01: Cadastrar usuário** |
 | - | - |
-|Fluxo principal ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.013.png)Fluxo alternativo |<p>1. O usuário digita a URL no navegador </p><p>2. O usuário digita os seus dados (Nome, endereço, telefone e ~~matrícula)~~ </p><p>2\. Cadastrar com conta SGA </p><p>a) O sistema fornece a opção de utilizar uma conta SGA </p>|
+|Fluxo principal ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.013.png)Fluxo alternativo |<p>1. O usuário digita a URL no navegador </p><p>2. O usuário digita os seus dados (Nome, endereço, telefone e ~~matrícula)~~ </p><p>2\. Cadastrar com conta SGA </p><p>a) O sistema fornece a opção de utilizar uma conta SGA </p>|
 |Fluxo de exceção |<p>2\. Dados incorretos </p><p>a) O sistema irá mostrar uma mensagem informando ao usuário que algum dado está incorreto </p><p>b) O usuário inicia novamente o seu cadastro </p>|
 |Pós-condições |` `Criação de usuário bem-sucedida, faça login |
 |Regras de negócio |RN01 e RN03 |
@@ -361,11 +348,11 @@ COPIAR E COLAR O QUADRO ACIMA PARA OS CASOS DE USO!
 |Fluxo de exceção |<p>**4) O funcionário não está com o seu cadastro ativo** </p><p>a) Verificar o seu cadastro com o gerente do estacionamento </p>|
 |Pós-condições |O funcionário sabe a quantidade de veículo que entraram na puc naquele dia |
 |Regras de negócio ||
-**8. Diagrama de classes – A SER FEITO NA 2ª PARTE ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.014.png)**
+**8. Diagrama de classes – A SER FEITO NA 2ª PARTE ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.014.png)**
 
 1. **Diagrama de classes** 
 
-![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.015.jpeg)
+![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.015.jpeg)
 
 2. **Descrição das classes** 
 
@@ -445,39 +432,39 @@ Veículo: Associado a Registro com multiplicidade N:1 (vários registros podem e
 
 Estacionamento: Associado a Vaga com multiplicidade 1:N (um estacionamento pode ter várias vagas). 
 
-**9.Diagrama de atividades – A SER FEITO NA 2ª PARTE ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.016.png)**
+**9.Diagrama de atividades – A SER FEITO NA 2ª PARTE ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.016.png)**
 
-![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.017.jpeg)
+![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.017.jpeg)
 
-**10.Prototipação ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.018.png)**
+**10.Prototipação ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.018.png)**
 
-Sugestão de ferramenta: Marvel App e Figma. Utilizado a ferramenta figma. Link: ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.019.png)
+Sugestão de ferramenta: Marvel App e Figma. Utilizado a ferramenta figma. Link: ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.019.png)
 
 https://www.figma.com/design/eQ2KrWMXkEShUdlgrFY5mG/Engenharia-de- Requisitos?node-id=0-1&node-type=canvas 
 
 Tela 1 – Login 
 
-Tela 2 – Cadastro de usuários ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.020.png)![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.021.jpeg)
+Tela 2 – Cadastro de usuários ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.020.png)![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.021.jpeg)
 
-Tela 3 - Página inicial (Alunos) ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.022.png)![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.023.jpeg)
+Tela 3 - Página inicial (Alunos) ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.022.png)![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.023.jpeg)
 
-![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.024.jpeg)90 ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.025.png)
+![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.024.jpeg)90 ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.025.png)
 
 Tela 4 - Página inicial (Funcionários) 
 
-Tela 5 – Gerenciamento de veículos (Funcionários) ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.026.png)![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.027.jpeg)
+Tela 5 – Gerenciamento de veículos (Funcionários) ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.026.png)![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.027.jpeg)
 
-Tela 6 – Cadastro de veículos (Funcionários) ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.028.png)![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.029.jpeg)
+Tela 6 – Cadastro de veículos (Funcionários) ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.028.png)![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.029.jpeg)
 
-Tela 7 - Gerenciamento para entrada de veículos (Funcionários) ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.030.png)![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.031.jpeg)
+Tela 7 - Gerenciamento para entrada de veículos (Funcionários) ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.030.png)![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.031.jpeg)
 
-Tela 8 – Gerenciamento para entrada de visitantes (Funcionários) ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.032.png)![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.033.jpeg)
+Tela 8 – Gerenciamento para entrada de visitantes (Funcionários) ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.032.png)![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.033.jpeg)
 
-Tela 9 – Fale conosco (geral) ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.034.png)![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.035.jpeg)
+Tela 9 – Fale conosco (geral) ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.034.png)![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.035.jpeg)
 
-![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.036.png)
+![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.036.png)
 
-**11. Histórias de Usuário  ![](Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.037.png)**
+**11. Histórias de Usuário  ![](imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.037.png)**
 
 HST 01: Como vigilante, eu gostaria de registrar a entrada e a saída de veiculos, para fazer o controle de uso da estacionamento. 
 
@@ -498,4 +485,4 @@ HST 08: Como vigilante, eu quero que a data e a hora da entrada e saída de um u
 HST 09: Como usuário do estacionamento, eu quero fazer login na plataforma, para poder utilizar o estacionamento. 
 Documento de Requisitos   10/12/2024 
 
-[ref1]: Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.004.png
+[ref1]: imgs/Aspose.Words.37fe3473-600c-4849-8fb5-39aa56d29e6f.004.png
